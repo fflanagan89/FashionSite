@@ -1,0 +1,13 @@
+<nav>
+    <ol>
+        <?php
+        print '<li class="';
+        if ($path_parts['filename'] == "PLACEHOLDER") {
+            print ' activePage ';
+        }
+        print '">';
+        print '<a href="PLACEHOLDER.php">PLACEHOLDER</a>';
+        print '</li>';
+        ?>
+    </ol>
+</nav>
