@@ -1,0 +1,197 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2017, 8:43:47 PM
+    Author     : 49020
+*/
+/***************************** main layout section    ***************/
+body{
+    font: 14pt Helvetica;
+    margin: auto;
+    width: 90%;
+    
+}
+a{
+    padding: 2px;
+}
+h1{
+    text-transform: uppercase;
+}
+/**************** navigation section*******************/
+nav a:link{
+    
+    color: 9c9cb5;
+    text-decoration: none;
+}
+nav a:hover{
+    
+   color: black;
+}
+nav ol{
+    padding-left: 0;
+}
+nav li{
+    display: inline-block;
+    list-style-type: none;
+    width: 5em;
+    padding-right: 3em;
+}
+nav a:visited{
+    color:grey;
+}
+
+/***************************** index for image and caption    ***************/
+.caption-style-1{
+		list-style-type: none;
+
+		
+	}
+
+	.caption-style-1 li{
+		padding: 0px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.caption-style-1 li:hover .caption{
+		opacity: 1;
+
+	}
+
+
+	.caption-style-1 img{
+		position: relative;
+                display: block;
+                margin: auto;
+                width:  60%;
+                height: 60%;
+                background-position: 50% 50%;
+                background-repeat:   no-repeat;
+                background-size:     cover;
+	}
+
+
+	.caption-style-1 .caption{
+		cursor: pointer;
+		position: relative;
+		opacity: 0;
+		-webkit-transition:all 0.45s ease-in-out;
+		-moz-transition:all 0.45s ease-in-out;
+		-o-transition:all 0.45s ease-in-out;
+		-ms-transition:all 0.45s ease-in-out;
+		transition:all 0.45s ease-in-out;
+
+	}
+	.caption-style-1 .blur{
+		background-color: rgba(0,0,0,0.65);
+		max-width: 50%;
+                height: auto;
+		z-index: 5;
+		position: absolute;
+	}
+
+	.caption-style-1 .caption-text h1{
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+	.caption-style-1 .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		max-width: 50%;
+                height: auto;
+		text-align: center;
+		top:250px;
+	}
+        /************************ form section *****************/
+#form form{
+    font:bold 0.6em Arial,Helvetica,sans-serif;
+    margin: auto;
+    max-width: 38em;
+}
+fieldset{
+    border: 2px solid #00498e;
+    clear: both;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+label{
+    color: #005cb3;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.form-heading{
+    border-bottom: 2px solid #ddd;
+    font-size: 1.25em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 1.75em;
+    padding-bottom: 0.4em;
+}
+.check-field{
+    margin: 0 0 1.25em 7.5em;
+}
+
+.radio-field{
+    margin: 0 0 1.25em 7.5em;
+}
+.text-field{
+    display: block;
+    float: left;
+    margin: 0 0 1.2em;
+    padding-right: 0.5em;
+    padding-top: 0.75em;
+    text-align: right;
+    width: 7em;
+}
+
+#form input,#form textarea,#form select{
+    box-sizing: border-box;
+    border: 2px solid #C2C2C2;
+    box-shadow: 2px 2px 4px #EBEBEB;
+    border-radius: 3px;
+    padding: 1em;
+    outline: none;
+}
+
+#form input:focus,#form textarea:focus,#form select:focus{
+    border: 1px solid #0C0;
+}
+
+#form input[type=submit]{
+    background: #005cb3 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px #dadada;
+    color: #fff;
+    margin: 1em;
+    padding: 0.8em 1.4em;
+}
+
+.buttons legend{
+    display: none;
+}
+.mistake{
+color:#fff;
+background-color: #800;
+border:thin solid #000;
+}
+#errors ol li{
+    color:#ff5555;
+}
+fieldset.buttons{
+    text-align: center;
+}
+
+        /******************** footer section *******************/
+footer{
+    clear: both;
+    font: 7pt Helvetica;
+    margin: auto;
+    width: 90%;
+}
