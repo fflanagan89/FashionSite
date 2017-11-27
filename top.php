@@ -8,7 +8,7 @@ $path_parts= pathinfo($phpSelf);
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Fasion site</title>
+        <title>Fashion site</title>
         
         <meta charset="utf-8">
         <meta name="author" content="Shuwei Huang,Mason Riley, Frank Flanagan">

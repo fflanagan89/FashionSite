@@ -86,11 +86,11 @@ nav a:visited{
 
 	}
 	.caption-style-1 .blur{
-		background-color: rgba(0,0,0,0.65);
+		background-color: black;
 		max-width: 50%;
                 height: auto;
 		z-index: 5;
-		position: absolute;
+		position: relative;
 	}
 
 	.caption-style-1 .caption-text h1{
@@ -98,13 +98,7 @@ nav a:visited{
 		font-size: 24px;
 	}
 	.caption-style-1 .caption-text{
-		z-index: 10;
-		color: #fff;
-		position: absolute;
-		max-width: 50%;
-                height: auto;
-		text-align: center;
-		top:250px;
+		
 	}
         /************************ form section *****************/
 #form form{
